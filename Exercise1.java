@@ -48,8 +48,9 @@ public class Exercise1 {
         Set<Integer> A_intersect_C = new TreeSet <>(A);
         A_intersect_C.retainAll(C);
 
-        
-        // System.out.print(A_intersect_C);
+        //𝐵−𝐴
+        Set<Integer> B_minus_A = new TreeSet<>(B);
+        B_minus_A.removeAll(A);
 
 
 
