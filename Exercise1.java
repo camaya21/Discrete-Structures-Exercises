@@ -52,7 +52,9 @@ public class Exercise1 {
         Set<Integer> B_minus_A = new TreeSet<>(B);
         B_minus_A.removeAll(A);
 
-
+        //𝐵⋃𝐶
+        Set<Integer> B_union_C = new TreeSet<>(B);
+        B_union_C.addAll(C);
 
 
     }
