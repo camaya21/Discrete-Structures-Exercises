@@ -40,9 +40,16 @@ public class Exercise1 {
 
         //Set Operations
 
+        // 𝐴 ⋃ 𝐵
         Set<Integer> A_union_B = new TreeSet<>(A);
         A_union_B.addAll(B);
-        System.out.print(A_union_B);
+        
+        //𝐴⋂𝐶
+        Set<Integer> A_intersect_C = new TreeSet <>(A);
+        A_intersect_C.retainAll(C);
+
+        
+        // System.out.print(A_intersect_C);
 
 
 
