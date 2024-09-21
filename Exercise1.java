@@ -26,6 +26,11 @@ public class Exercise1 {
             A.add(i);
         }
 
-    System.out.println(A);
+        //Set B
+        int[] bValues = {0,1,4,9,16,25,36,49,64,81,100};
+            for (int b : bValues) {
+                B.add(b);
+            }
+            System.out.print(B);
     }
 }
