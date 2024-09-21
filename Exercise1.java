@@ -10,16 +10,16 @@
 /**
  * Exercise1
  */
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.Set;
 
 public class Exercise1 {
 
     public static void main(String[] args) {
         // define sets A, B, C
-        Set<Integer> A = new HashSet<>();
-        Set<Integer> B = new HashSet<>();
-        Set<Integer> C = new HashSet<>();
+        Set<Integer> A = new TreeSet<>();
+        Set<Integer> B = new TreeSet<>();
+        Set<Integer> C = new TreeSet<>();
 
         // Set A
         for (int i = 0; i<= 150; i += 5){
@@ -27,7 +27,7 @@ public class Exercise1 {
         }
 
         //Set B
-        int[] bValues = {0,1,4,9,16,25,36,49,64,81,100};
+        int[] bValues = {0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100};
             for (int b : bValues) {
                 B.add(b);
             }
@@ -37,5 +37,15 @@ public class Exercise1 {
         for (int c : cValues) {
             C.add(c);
         }
+
+        //Set Operations
+
+        Set<Integer> A_union_B = new TreeSet<>(A);
+        A_union_B.addAll(B);
+        System.out.print(A_union_B);
+
+
+
+
     }
 }
