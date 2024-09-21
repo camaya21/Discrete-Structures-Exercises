@@ -7,3 +7,25 @@
 2. Find the following sets 𝐴 ⋃𝐵, 𝐴⋂𝐶, 𝐵−𝐴, 𝐵⋃𝐶, 𝐴−𝐵
 
 */
+/**
+ * Exercise1
+ */
+import java.util.HashSet;
+import java.util.Set;
+
+public class Exercise1 {
+
+    public static void main(String[] args) {
+        // define sets A, B, C
+        Set<Integer> A = new HashSet<>();
+        Set<Integer> B = new HashSet<>();
+        Set<Integer> C = new HashSet<>();
+
+        // Set A
+        for (int i = 0; i<= 150; i += 5){
+            A.add(i);
+        }
+
+    System.out.println(A);
+    }
+}
