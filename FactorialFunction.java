@@ -9,6 +9,11 @@ public class FactorialFunction {
         return result;
     }
 
-    
+    // Method to calculate total arrangements
+    public static BigInteger totalPeople(int numStudents, int numFaculty) {
+        int totalIndividuals = numStudents + numFaculty;
+        return factorial(totalIndividuals);
+    }
+
 
 }
