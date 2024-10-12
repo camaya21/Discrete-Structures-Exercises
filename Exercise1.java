@@ -12,7 +12,6 @@
  */
 import java.util.TreeSet;
 import java.util.Set;
-import java.util.Random;
 
 public class Exercise1 {
 
@@ -69,17 +68,5 @@ public class Exercise1 {
         // System.out.println("B - A: " + B_minus_A);
         // System.out.println("B ∪ C: " + B_union_C);
         // System.out.println("A - B: " + A_minus_B);
-    }
-
-    // Exercise 2
-
-    /* Consider a 3x4 matrix, and a 4x5 matrix with random numbers between 1 and 20.
-    Perform the multiplication of the two matrices
-    */
-
-    public static void matrix(String[] args) {
-        int[][] matrixA = new int[3][4];
-        int[][] matrixB = new int[4][5];
-        
     }
 }
